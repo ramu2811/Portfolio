@@ -117,8 +117,8 @@ footer {
 }
 
 .cert-item img {
-  width: 100%;
-  height: auto;
+  width: "400" ;
+  height: "300" ;
   display: block;
 }
 
@@ -139,4 +139,5 @@ footer {
   .cert-grid {
     grid-template-columns: 1fr;
   }
+
 }
