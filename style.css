@@ -100,7 +100,6 @@ footer {
   padding: 1rem;
 }
 /* ===== CERTIFICATIONS SECTION ===== */
-/* Certifications Section */
 #certifications {
   padding: 60px 20px;
   background-color: #f9f9f9;
@@ -118,7 +117,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  max-width: 1200px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -149,10 +148,11 @@ footer {
   margin: 0;
 }
 /* Responsive tweak for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .cert-grid {
     grid-template-columns: 1fr;
   }
 
 }
+
 
