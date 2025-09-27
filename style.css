@@ -100,42 +100,21 @@ footer {
   padding: 1rem;
 }
 /* ===== CERTIFICATIONS SECTION ===== */
-/* Certifications Section */
-#certifications {
-  padding: 60px 20px;
-  background-color: #f8f8f8;
-  text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+.certification-flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center;
 }
 
-#certifications h2 {
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 40px;
-}
-
-/* Grid container */
-.certification-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-/* Individual cert card */
 .cert-item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  padding: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cert-item:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px; /* Responsive width */
+  max-width: 400px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
 }
 
 .cert-item img {
@@ -144,12 +123,6 @@ footer {
   border-radius: 6px;
   margin-bottom: 10px;
 }
-
-.cert-item p {
-  font-size: 1em;
-  color: #444;
-  margin: 0;
-}
 /* Responsive tweak for smaller screens */
 @media (max-width: 400px) {
   .cert-grid {
@@ -157,6 +130,7 @@ footer {
   }
 
 }
+
 
 
 
